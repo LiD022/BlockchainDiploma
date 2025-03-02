@@ -1,0 +1,4 @@
+установи среду через 
+conda env create --file ./configs/env_hist.yml 
+
+если надо поправь нужный набор пакетов
