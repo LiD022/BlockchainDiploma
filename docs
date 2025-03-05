@@ -1,4 +1,16 @@
-установи среду через 
-conda env create --file ./configs/env_hist.yml 
+- прокинуть на серваке в .ssh паб кей от мака
+- поставить анаконду и сделать общий енв + conda env create --file ./configs/env_hist.yml 
+- сделать репозиторий на гитхабе открытым и прокинуть его на серваке
+- подгрузить паркеты от типа
+- найти либу/апи для декодинга контрактов (просто по code|contract_address.hex()) - https://ethervm.io/decompile
+- сделать скрипт который будет парсить контракты и выгружать их в новый датасет с кодом
 
-если надо поправь нужный набор пакетов
+
+на будущее:
+- попробовать мэтчить транзакц. хэши / адреса контрактов с export-verified-contractaddress-opensource-license.csv и https://docs.etherscan.io/api-endpoints/contracts#get-contract-abi-for-verified-contract-source-codes
+- подергать доп полезную инфу с моралисом
+- получить ембеддинги от кода
+- сделать очищение кода от флудовых и фллерных слов
+
+Артем:
+- написать one pager
